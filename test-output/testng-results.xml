@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-02T15:12:40 IST" name="Default suite" finished-at="2026-07-02T15:14:15 IST" duration-ms="95136">
+    <groups>
+    </groups>
+    <test started-at="2026-07-02T15:12:40 IST" name="Default test" finished-at="2026-07-02T15:14:15 IST" duration-ms="95136">
+      <class name="Bazar.test.PagesCheck">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Bazar.test.PagesCheck@76505305]" started-at="2026-07-02T15:12:40 IST" name="setup" finished-at="2026-07-02T15:12:49 IST" duration-ms="8531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="purchasebattery()[pri:0, instance:Bazar.test.PagesCheck@76505305]" started-at="2026-07-02T15:12:49 IST" name="purchasebattery" finished-at="2026-07-02T15:14:15 IST" duration-ms="86255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchasebattery -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bazar.test.PagesCheck@76505305]" started-at="2026-07-02T15:14:15 IST" name="tearDown" finished-at="2026-07-02T15:14:15 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Bazar.test.PagesCheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
