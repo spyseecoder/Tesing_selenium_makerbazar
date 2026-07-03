@@ -18,4 +18,12 @@ public class constants {
 	public static final String bc1="https://makerbazar.in/";
 	public static final String bc2="https://robu.in/login/";
 	public static final String addtocart="(//button[contains(text(),'Add to cart')])[1]";
+	//public static final String cartproductname = "//a[@class='line-item__title link text--strong']";
+	public static final String cartproductprice = "//span[contains(@class,'line-item__price')]";
+	public static final String cartquantity = "//input[@class='quantity-selector__value']";
+	public static final String cartlineprice = "//td[@class='line-item__line-price table__cell--right hidden-phone']//span";
+	//public static final String carttotal = "//span[@class='cart-recap__price-line-price']";
+	public static final String removeitem = "//a[@class='line-item__quantity-remove link']";
+	public static final String cartproductname="//a[@class='line-item__title link text--strong']";
+	public static final String carttotal="//span[@class='cart-recap__price-line-price']";
 }

@@ -46,6 +46,12 @@ public class SelectAddCheckAndBack {
 
     // Home
     By home = By.xpath(constants.home);
+    
+ // Cart Validation
+
+    By cartProductName = By.xpath(constants.cartproductname);
+
+    By cartTotal = By.xpath(constants.carttotal);
 
     public void clickSearchButton() {
         
@@ -112,5 +118,20 @@ public class SelectAddCheckAndBack {
 
     public void goHome() {
         wait.until(ExpectedConditions.elementToBeClickable(home)).click();
+    }
+    
+    public String getFirstCartProductName() {
+
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(cartProductName)).getText();
+    }
+
+    public String getSecondCartProductName() {
+
+        return driver.findElements(cartProductName).get(1).getText();
+    }
+
+    public String getCartTotal() {
+
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(cartTotal)).getText();
     }
 }

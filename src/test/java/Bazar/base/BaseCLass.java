@@ -5,15 +5,15 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import Constants.constants;
 
 public class BaseCLass {
 	public WebDriver driver;
 
-    @BeforeMethod
+    @BeforeClass
     public void setup() {
 
         ChromeOptions options = new ChromeOptions();
@@ -66,7 +66,7 @@ public class BaseCLass {
         }
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown() {
 
         driver.quit();

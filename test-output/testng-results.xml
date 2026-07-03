@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-02T15:12:40 IST" name="Default suite" finished-at="2026-07-02T15:14:15 IST" duration-ms="95136">
+  <suite started-at="2026-07-03T14:56:08 IST" name="Default suite" finished-at="2026-07-03T14:58:12 IST" duration-ms="123708">
     <groups>
     </groups>
-    <test started-at="2026-07-02T15:12:40 IST" name="Default test" finished-at="2026-07-02T15:14:15 IST" duration-ms="95136">
+    <test started-at="2026-07-03T14:56:08 IST" name="Default test" finished-at="2026-07-03T14:58:12 IST" duration-ms="123708">
       <class name="Bazar.test.PagesCheck">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Bazar.test.PagesCheck@76505305]" started-at="2026-07-02T15:12:40 IST" name="setup" finished-at="2026-07-02T15:12:49 IST" duration-ms="8531" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:56:08 IST" name="setup" finished-at="2026-07-03T14:56:15 IST" duration-ms="7088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="purchasebattery()[pri:0, instance:Bazar.test.PagesCheck@76505305]" started-at="2026-07-02T15:12:49 IST" name="purchasebattery" finished-at="2026-07-02T15:14:15 IST" duration-ms="86255" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:56:15 IST" name="initialize" finished-at="2026-07-03T14:56:15 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- purchasebattery -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bazar.test.PagesCheck@76505305]" started-at="2026-07-02T15:14:15 IST" name="tearDown" finished-at="2026-07-02T15:14:15 IST" duration-ms="300" status="PASS">
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyBattery()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:56:15 IST" name="verifyBattery" description="Verify Battery can be added to the cart." finished-at="2026-07-03T14:57:09 IST" duration-ms="54429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBattery -->
+        <test-method signature="verifyMultimeter()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:57:10 IST" name="verifyMultimeter" description="Verify Multimeter can be added to the cart." finished-at="2026-07-03T14:57:53 IST" duration-ms="43202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultimeter -->
+        <test-method signature="verifyRemoveMultimeter()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:57:53 IST" name="verifyRemoveMultimeter" description="Verify Multimeter can be removed from the cart." finished-at="2026-07-03T14:58:11 IST" duration-ms="18468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveMultimeter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:58:11 IST" name="tearDown" finished-at="2026-07-03T14:58:12 IST" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
