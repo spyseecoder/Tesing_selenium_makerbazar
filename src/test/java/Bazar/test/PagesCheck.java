@@ -124,6 +124,6 @@ public class PagesCheck extends BaseCLass {
 		maker.goHome();
 		waitFor5Seconds();
 
-		System.out.println("\n========== ALL TEST STEPS PASSED SUCCESSFULLY ==========\n");
+		System.out.println("\n  ALL TEST STEPS PASSED SUCCESSFULLY\n");
 	}
 }

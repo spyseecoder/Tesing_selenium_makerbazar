@@ -26,4 +26,6 @@ public class constants {
 	public static final String removeitem = "//a[@class='line-item__quantity-remove link']";
 	public static final String cartproductname="//a[@class='line-item__title link text--strong']";
 	public static final String carttotal="//span[@class='cart-recap__price-line-price']";
+	public static final String filterbtn = "//button[@aria-label='Filter']";
+	public static final String producttype = "//button[@id='w-31998efd3c189ad6-7ba4f508194441ed']";
 }
