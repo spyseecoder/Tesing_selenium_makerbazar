@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-03T14:56:08 IST" name="Default suite" finished-at="2026-07-03T14:58:12 IST" duration-ms="123708">
+  <suite started-at="2026-07-05T11:32:46 IST" name="Default suite" finished-at="2026-07-05T11:33:20 IST" duration-ms="33788">
     <groups>
     </groups>
-    <test started-at="2026-07-03T14:56:08 IST" name="Default test" finished-at="2026-07-03T14:58:12 IST" duration-ms="123708">
-      <class name="Bazar.test.PagesCheck">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:56:08 IST" name="setup" finished-at="2026-07-03T14:56:15 IST" duration-ms="7088" status="PASS">
+    <test started-at="2026-07-05T11:32:46 IST" name="Default test" finished-at="2026-07-05T11:33:20 IST" duration-ms="33788">
+      <class name="Bazar.test.FilterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Bazar.test.FilterTest@38425407]" started-at="2026-07-05T11:32:46 IST" name="setup" finished-at="2026-07-05T11:32:52 IST" duration-ms="5878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:56:15 IST" name="initialize" finished-at="2026-07-03T14:56:15 IST" duration-ms="45" status="PASS">
+        <test-method signature="applyProductFilter()[pri:0, instance:Bazar.test.FilterTest@38425407]" started-at="2026-07-05T11:32:52 IST" name="applyProductFilter" description="Verify product filter functionality." finished-at="2026-07-05T11:33:19 IST" duration-ms="27523" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="verifyBattery()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:56:15 IST" name="verifyBattery" description="Verify Battery can be added to the cart." finished-at="2026-07-03T14:57:09 IST" duration-ms="54429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBattery -->
-        <test-method signature="verifyMultimeter()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:57:10 IST" name="verifyMultimeter" description="Verify Multimeter can be added to the cart." finished-at="2026-07-03T14:57:53 IST" duration-ms="43202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMultimeter -->
-        <test-method signature="verifyRemoveMultimeter()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:57:53 IST" name="verifyRemoveMultimeter" description="Verify Multimeter can be removed from the cart." finished-at="2026-07-03T14:58:11 IST" duration-ms="18468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRemoveMultimeter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bazar.test.PagesCheck@662ac478]" started-at="2026-07-03T14:58:11 IST" name="tearDown" finished-at="2026-07-03T14:58:12 IST" duration-ms="419" status="PASS">
+        </test-method> <!-- applyProductFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bazar.test.FilterTest@38425407]" started-at="2026-07-05T11:33:19 IST" name="tearDown" finished-at="2026-07-05T11:33:20 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Bazar.test.PagesCheck -->
+      </class> <!-- Bazar.test.FilterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

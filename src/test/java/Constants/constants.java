@@ -28,4 +28,8 @@ public class constants {
 	public static final String carttotal="//span[@class='cart-recap__price-line-price']";
 	public static final String filterbtn = "//button[@aria-label='Filter']";
 	public static final String producttype = "//button[@id='w-31998efd3c189ad6-7ba4f508194441ed']";
+	public static final String batterysearch = "Battery";
+	public static final String motor555 = "//span[normalize-space()='555 Motor']";
+	public static final String filterproducttitle = "//div[@class='boost-sd__product-title']";
+	public static final String FILTER_TOGGLE ="//button[@aria-label='Filter' and contains(@class,'boost-sd__filter-tree-toggle-button')]";
 }

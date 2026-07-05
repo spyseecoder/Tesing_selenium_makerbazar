@@ -1,6 +1,7 @@
 package Bazar.pages;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -52,6 +53,13 @@ public class SelectAddCheckAndBack {
     By cartProductName = By.xpath(constants.cartproductname);
 
     By cartTotal = By.xpath(constants.carttotal);
+// filter    
+    By filterButton = By.xpath(constants.filterbtn);
+
+    By productType = By.xpath(constants.producttype);
+    
+    By motor555 = By.xpath(constants.motor555);
+    By productTitle = By.xpath(constants.filterproducttitle);
 
     public void clickSearchButton() {
         
@@ -133,5 +141,51 @@ public class SelectAddCheckAndBack {
     public String getCartTotal() {
 
         return wait.until(ExpectedConditions.visibilityOfElementLocated(cartTotal)).getText();
+    }
+    public void clickFilter() {
+
+    	wait.until(ExpectedConditions.elementToBeClickable(filterButton)).click();
+    }
+
+    public void clickProductType() {
+
+    	wait.until(ExpectedConditions.elementToBeClickable(productType)).click();
+    }
+    
+    public void click555MotorFilter() {
+
+        wait.until(ExpectedConditions.elementToBeClickable(motor555)).click();
+
+    }
+    public boolean verifyFilteredProducts() {
+
+        List<WebElement> products = driver.findElements(productTitle);
+
+        for (WebElement product : products) {
+
+            String name = product.getText().toLowerCase();
+
+            System.out.println("Product Found : " + name);
+
+            if (!(name.contains("555") || name.contains("motor"))) {
+
+                System.out.println("FAIL : Unexpected product found -> " + name);
+                return false;
+            }
+        }
+        return true;
+
+    }
+    public void removeFilter() {
+        wait.until(ExpectedConditions.elementToBeClickable(
+            By.xpath(constants.FILTER_TOGGLE)
+        )).click();
+    }
+    public int getProductCount() {
+
+        List<WebElement> products = driver.findElements(productTitle);
+
+        return products.size();
+
     }
 }
